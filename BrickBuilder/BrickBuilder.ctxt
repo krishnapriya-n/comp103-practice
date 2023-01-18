@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=BrickBuilder
+comment0.text=\r\n\ This\ class\ contains\ methods\ for\ \r\n\ Clearing\ contents\ to\ restart\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ->\ .clear()\r\n\ Mouse\ action\ listener\ for\ responding\ to\ mouse\ actions\ \ ->\ .doMouse()\r\n\ Undo\ button\ to\ undo\ last\ action\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ->\ \ .undo()\r\n\ Changing\ brick\ color\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ->\ .setColor()\r\n\ For\ error\ check\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ->\ .findBrickAt()\r\n\ .redraw()\ and\ .main()\r\n
+comment1.params=
+comment1.target=void\ setupGUI()
+comment1.text=\r\n\ Initialise\ the\ interface\r\n
+comment2.params=
+comment2.target=void\ clear()
+comment2.text=\r\n\ Clear\ the\ collection\ of\ bricks\ and\ clear\ the\ window\r\n
+comment3.params=action\ x\ y
+comment3.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment3.text=\r\n\ Respond\ to\ the\ mouse\:\r\n\ \ add\ brick\ if\ pressed\ and\ released\ on\ empty\ space\r\n\ \ move\ brick\ if\ pressed\ on\ a\ brick\ and\ released\ on\ space\r\n\ \ delete\ brick\ if\ pressed\ and\ released\ on\ the\ same\ brick\r\n
+comment4.params=
+comment4.target=void\ undo()
+comment4.text=\r\n\ Undo\ the\ next\ earlier\ action\ \r\n
+comment5.params=
+comment5.target=void\ setColor()
+comment5.text=\r\n\ Set\ the\ current\ color.\r\n
+comment6.params=x\ y
+comment6.target=Brick\ findBrickAt(double,\ double)
+comment6.text=\r\n\ Find\ (and\ return)\ a\ brick\ that\ is\ over\ the\ position\ (x,y)\r\n\ return\ null\ if\ (x,y)\ is\ not\ over\ a\ brick\r\n
+comment7.params=
+comment7.target=void\ redraw()
+comment7.text=\r\n\ Redraw\ the\ collection\ of\ bricks.\r\n
+comment8.params=arguments
+comment8.target=void\ main(java.lang.String[])
+numComments=9

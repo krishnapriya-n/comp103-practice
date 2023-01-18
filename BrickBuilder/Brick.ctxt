@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Brick
+comment0.text=\r\n\ A\ Brick\r\n\ Has\ a\ color\ and\ a\ position.\r\n\ Bricks\ have\ to\ be\ aligned\ with\ the\ grid\r\n
+comment1.params=x\ y\ color
+comment1.target=Brick(double,\ double,\ java.awt.Color)
+comment1.text=\r\n\ Construct\ a\ new\ Brick\ object\ over\ the\ position\ (x,y)\r\n\ Identifies\ the\ appropriate\ grid\ position\ for\ the\ Brick\r\n
+comment2.params=x\ y
+comment2.target=void\ moveTo(double,\ double)
+comment2.text=\r\n\ Move\ the\ brick\ to\ the\ specified\ position\r\n
+comment3.params=x\ y
+comment3.target=boolean\ on(double,\ double)
+comment3.text=\r\n\ Is\ the\ position\ (x,y)\ on\ top\ of\ the\ brick\r\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\r\n\ Draw\ the\ brick\r\n
+comment5.params=
+comment5.target=double\ getX()
+comment5.text=\r\n\ Return\ x\ position\ on\ the\ brick\r\n
+comment6.params=
+comment6.target=double\ getY()
+comment6.text=\r\n\ Return\ y\ position\ on\ the\ brick\r\n
+numComments=7

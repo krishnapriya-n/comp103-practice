@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BrickAction
+comment0.text=\r\n\ BrickAction\r\n\ Records\ information\ about\ an\ add,\ move,\ or\ delete\ action\r\n\ in\ the\ BrickConstructor\r\n
+comment1.params=actionStr\ brick
+comment1.target=BrickAction(java.lang.String,\ Brick)
+comment1.text=\r\n\ Construct\ a\ new\ BrickAction\ object\ with\ just\ the\ brick\r\n
+comment2.params=act\ brick\ x\ y
+comment2.target=BrickAction(java.lang.String,\ Brick,\ double,\ double)
+comment2.text=\r\n\ Construct\ a\ new\ BrickAction\ object\ with\ a\ brick\ and\ previous\ position\r\n
+comment3.params=
+comment3.target=java.lang.String\ getActionStr()
+comment3.text=Return\ the\ value\ of\ the\ action\ field
+comment4.params=
+comment4.target=Brick\ getBrick()
+comment4.text=Return\ the\ value\ of\ the\ brick\ field
+comment5.params=
+comment5.target=double\ getX()
+comment5.text=Return\ the\ value\ of\ the\ x\ field
+comment6.params=
+comment6.target=double\ getY()
+comment6.text=Return\ the\ value\ of\ the\ y\ field
+numComments=7
